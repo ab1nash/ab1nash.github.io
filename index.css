@@ -1,3 +1,15 @@
 body {
-  background-color: beige;
+  /* background-color: midnightblue; */
+}
+
+a {
+  text-decoration: none !important;
+}
+
+container a:hover {
+  color: purple !important;
+}
+
+i {
+  color: orange !important;
 }
