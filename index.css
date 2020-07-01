@@ -8,10 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  /* background-color: midnightblue; */
-}
-
 p {
   text-align: justify;
 }
@@ -29,8 +25,8 @@ i {
 }
 /* globals */
 
-.content-box {
-}
+/* .content-box {
+} */
 
 .about-img {
   max-height: 320px;
@@ -39,7 +35,17 @@ i {
 }
 
 .image-effect img:hover {
-  /* filter: blur(2px); */
   filter: drop-shadow(0px 0px 10px orange);
-  /* filter: grayscale(20%); */
+}
+
+i,
+img {
+  transition: all 200ms;
+}
+/* .social-box a:hover i {
+  transform: scale(1.25);
+} */
+
+i:hover {
+  transform: scale(1.25);
 }
