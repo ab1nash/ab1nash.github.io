@@ -86,7 +86,7 @@
     </nav>
     <div
       class="container content-box pt-4 bg-dark text-white shadow"
-      style="min-height: 96vh;"
+      style="min-height: 96vh"
     >
       <h1>Contact</h1>
       <h3>Reach out to me at any of the following:</h3>
@@ -132,6 +132,26 @@
           </a>
         </div>
       </div>
+      ...or drop a message down below:
+      <form action="https://formspree.io/mbjzavve" method="POST" class="my-2 py-2">
+        <div class="form-group">
+          <label>
+            Your email:
+            <input class="form-control form-control-md mt-2" type="text" name="_replyto" placeholder="lorem@ipsum.com" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            Your message:
+            <textarea class="form-control form-control-md mt-2" name="message"></textarea>
+          </label>
+        </div>
+
+          <!-- your other form fields go here -->
+
+          <button class="btn btn-warning mt-2" type="submit">Send</button>
+        </div>
+      </form>
     </div>
     <!-- bootstrap v5 helpers -->
     <script
